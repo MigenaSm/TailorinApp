@@ -1,0 +1,59 @@
+<svg id="Tailorin_Logo" data-name="Tailorin Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="178.371" height="172.349" viewBox="0 0 178.371 172.349">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_2" data-name="Path 2" d="M135,275.337l7.537,6.422v5.179L135,293.569l8.987,5.8,10.98-1.45,10.152-11.809-4.558-13.259L147.3,267.464Z" fill="none" stroke="#640000" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_3" data-name="Path 3" d="M171.891,285.494,161.732,295.7l-.552-19.7,5.948-4.57-10.808-9.865L132.6,262.66l-9.938,19.368,8.632,21.906,19.3,3.119,11.606-5.005,2.94-4.414" fill="none" stroke="#640000" stroke-width="0.1"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_4" data-name="Path 4" d="M167.8,293.8l-6.373,6.225a21.016,21.016,0,0,1-2.919,2.017c-1.545.858,0-5.408,0-5.408l16.728-25.355L98.77,192.534l17.751-13.2,97.86,68.274-33.227,52.414Z" fill="none" stroke="#640000" stroke-width="0.1"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Path_2-2" data-name="Path 2" d="M165,275.337l-7.507,6.422v5.179l7.507,6.63-8.952,5.8-10.937-1.45L135,286.11l4.54-13.259,13.207-5.387Z" transform="translate(-135 -267.464)" fill="none" stroke="#640000" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Path_3-2" data-name="Path 3" d="M122.662,285.494l10.221,10.21.556-19.7-5.985-4.57,10.874-9.865,23.865,1.088,10,19.368-8.685,21.906-19.413,3.119-11.677-5.005-2.958-4.414" transform="translate(-122.662 -261.572)" fill="none" stroke="#640000" stroke-width="0.1"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <path id="Path_4-2" data-name="Path 4" d="M145.411,293.8l6.381,6.225a21.043,21.043,0,0,0,2.922,2.017c1.547.858,0-5.408,0-5.408l-16.749-25.355,76.566-78.743-17.774-13.2L98.77,247.609l33.27,52.414Z" transform="translate(-98.77 -179.334)" fill="none" stroke="#640000" stroke-width="0.1"/>
+    </clipPath>
+  </defs>
+  <g id="Tailorin_Logo-2" data-name="Tailorin_Logo">
+    <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(0 0)">
+      <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-97.77 -180.334)" clip-path="url(#clip-path)">
+        <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(135 272)" fill="none" stroke="#640000" stroke-width="3">
+          <ellipse cx="12.5" cy="12" rx="12.5" ry="12" stroke="none"/>
+          <ellipse cx="12.5" cy="12" rx="11" ry="10.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(-97.77 -180.334)" clip-path="url(#clip-path-2)">
+        <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(126 262.5)" fill="none" stroke="#640000" stroke-width="3">
+          <circle cx="21.5" cy="21.5" r="21.5" stroke="none"/>
+          <circle cx="21.5" cy="21.5" r="20" fill="none"/>
+        </g>
+      </g>
+      <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-98.77 -179.334)" clip-path="url(#clip-path-3)">
+        <path id="Path_1" data-name="Path 1" d="M158.9,300.613l29-29L108.975,193.3,187.909,251.3l-4.762,3.557,5.639,5.639" fill="none" stroke="#640000" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Component_3_1" data-name="Component 3 – 1" transform="translate(62.611)">
+      <g id="Mask_Group_1-2" data-name="Mask Group 1" transform="translate(48.243 87.13)" clip-path="url(#clip-path-4)">
+        <g id="Ellipse_1-2" data-name="Ellipse 1" transform="translate(6.577 4.536)" fill="none" stroke="#640000" stroke-width="3">
+          <ellipse cx="11.865" cy="12" rx="11.865" ry="12" stroke="none"/>
+          <ellipse cx="11.865" cy="12" rx="10.365" ry="10.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Mask_Group_2-2" data-name="Mask Group 2" transform="translate(41.776 81.466)" clip-path="url(#clip-path-5)">
+        <g id="Ellipse_2-2" data-name="Ellipse 2" transform="translate(2.909 0.928)" fill="none" stroke="#640000" stroke-width="3">
+          <ellipse cx="21.631" cy="21.5" rx="21.631" ry="21.5" stroke="none"/>
+          <ellipse cx="21.631" cy="21.5" rx="20.131" ry="20" fill="none"/>
+        </g>
+      </g>
+      <g id="Mask_Group_3-2" data-name="Mask Group 3" clip-path="url(#clip-path-6)">
+        <path id="Path_1-2" data-name="Path 1" d="M138.017,300.613l-29.042-29L188.01,193.3,108.975,251.3l4.452,3.557-5.394,5.884" transform="translate(-82.468 -179.334)" fill="none" stroke="#640000" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+  <path id="Path_5" data-name="Path 5" d="M.806,16.6V13.087H20.483V16.6H12.476V49H8.813V16.6Zm50.757,5.835V49H48.193V44.435a14.65,14.65,0,0,1-4.822,3.931,13.47,13.47,0,0,1-15.479-2.771A13.711,13.711,0,0,1,23.9,35.646a13.461,13.461,0,0,1,4.028-9.814,13.135,13.135,0,0,1,9.692-4.077,12.533,12.533,0,0,1,5.92,1.392,13.473,13.473,0,0,1,4.651,4.175V22.438ZM37.9,25.05a10.307,10.307,0,0,0-9.108,5.341,10.762,10.762,0,0,0,.012,10.73,10.477,10.477,0,0,0,3.865,3.987,10.1,10.1,0,0,0,5.206,1.427,10.671,10.671,0,0,0,5.316-1.414,9.892,9.892,0,0,0,3.865-3.829,10.927,10.927,0,0,0,1.353-5.438,10.571,10.571,0,0,0-3.036-7.706A10.056,10.056,0,0,0,37.9,25.05ZM60.437,11.5a2.828,2.828,0,0,1,2.82,2.832,2.808,2.808,0,0,1-5.615,0,2.734,2.734,0,0,1,.826-2A2.683,2.683,0,0,1,60.437,11.5Zm-1.7,10.938h3.418V49H58.74ZM68.75,12.184h3.418V49H68.75Zm23.1,9.57A13.156,13.156,0,0,1,102.02,26.2a14.262,14.262,0,0,1-.208,19.324,14.041,14.041,0,0,1-19.957,0,14.231,14.231,0,0,1-.208-19.3A13.15,13.15,0,0,1,91.846,21.754ZM91.833,25.1a9.861,9.861,0,0,0-7.326,3.149,10.527,10.527,0,0,0-3.063,7.617,10.8,10.8,0,0,0,1.4,5.371,9.9,9.9,0,0,0,3.773,3.845,10.727,10.727,0,0,0,10.437,0,9.9,9.9,0,0,0,3.773-3.845,10.8,10.8,0,0,0,1.4-5.371,10.5,10.5,0,0,0-3.075-7.617A9.873,9.873,0,0,0,91.833,25.1Zm18.884-2.661h3.491v3.882a12.257,12.257,0,0,1,3.3-3.43,6.5,6.5,0,0,1,3.613-1.135,6.234,6.234,0,0,1,3.027.9l-1.782,2.881a4.754,4.754,0,0,0-1.807-.464,4.942,4.942,0,0,0-3.3,1.4,8.876,8.876,0,0,0-2.417,4.358q-.635,2.271-.635,9.18V49h-3.491ZM128.235,11.5a2.828,2.828,0,0,1,2.82,2.832,2.808,2.808,0,0,1-5.615,0,2.734,2.734,0,0,1,.826-2A2.683,2.683,0,0,1,128.235,11.5Zm-1.7,10.938h3.418V49h-3.418Zm10.522,0h3.418V27.2a14.287,14.287,0,0,1,4.541-4.089,11.158,11.158,0,0,1,5.42-1.355,9.417,9.417,0,0,1,5.286,1.514,9.017,9.017,0,0,1,3.406,4.077q1.1,2.563,1.1,7.983V49h-3.418V36.329a31.218,31.218,0,0,0-.38-6.128,6.73,6.73,0,0,0-2.279-3.967,6.883,6.883,0,0,0-4.4-1.331,8.431,8.431,0,0,0-5.555,2.051,9.607,9.607,0,0,0-3.235,5.078,35.318,35.318,0,0,0-.488,7.227V49h-3.418Z" transform="translate(5.23 122.666)" fill="#640000"/>
+</svg>
