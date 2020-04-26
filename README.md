@@ -6,4 +6,7 @@
 
 Tailorin è una mobile app che sonsente di imparare le basi della sartoria tramite un sistema di mini corsi e quiz in app
 
+***********************************************************************************************************************************
+Questa è una prova per vedere se funziona
+
 
