@@ -1,5 +1,6 @@
 package com.lorenzotribuiani.tailorin;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -14,7 +15,10 @@ import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 
 public class SplashScreen extends AppCompatActivity {
 
-    private int LOGIN_REQUEST = 101;
+    private final static int LOGIN_REQUEST = 101;
+
+    private final static int NO_LOGIN = 104;
+    private final static int LOGIN = 105;
 
     private ImageView logo, text;
 
@@ -34,7 +38,7 @@ public class SplashScreen extends AppCompatActivity {
         final Animation bow = AnimationBow(logo);
 
         SharedPreferences preferences = getSharedPreferences("LoadCheck", MODE_PRIVATE);
-        if(preferences.getBoolean("idFirstRun", true)){
+        if(preferences.getBoolean("isFirstRun", true)){
 
             logo.postDelayed(new Runnable() {
                 @Override
@@ -46,7 +50,7 @@ public class SplashScreen extends AppCompatActivity {
             logo.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    startActivity(new Intent(SplashScreen.this, FirstRun_Login.class));
+                    startActivityForResult(new Intent(SplashScreen.this, FirstRun_Login.class), LOGIN_REQUEST);
                     //cambio il tipo di transizione fra le activity dallo scorrimento al fade (solo in questo caso)
                     Animatoo.animateFade(SplashScreen.this);
                 }
@@ -64,7 +68,10 @@ public class SplashScreen extends AppCompatActivity {
             logo.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    startActivity(new Intent(SplashScreen.this, HomePage.class));
+                    Intent intent = new Intent(SplashScreen.this, HomePage.class);
+                    //elimina la splashActivity dallo stack
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK );
+                    startActivity(intent);
                     //cambio il tipo di transizione fra le activity dallo scorrimento al fade (solo in questo caso)
                     Animatoo.animateFade(SplashScreen.this);
                 }
@@ -73,6 +80,36 @@ public class SplashScreen extends AppCompatActivity {
         }
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        SharedPreferences preferences = getSharedPreferences("LoadCheck", MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putBoolean("isFirstRun", false);
+
+        Intent intent = new Intent(this, HomePage.class);
+
+        switch(resultCode){
+            case LOGIN:
+                editor.putBoolean("isLogged", true);
+                editor.apply();
+                intent.putExtra("isLogged", true);
+                //Elimina la splash activity dallo stack
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+                break;
+
+            case NO_LOGIN:
+                editor.putBoolean("isLogged", false);
+                editor.apply();
+                intent.putExtra("isLogged", false);
+                //elimina la splashActivity dallo stak
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+                break;
+        }
+    }
 
     private Animation AnimationBow(final ImageView target1){
         //ottengo la prima animazione che rimpicciolisce il logo

@@ -13,4 +13,7 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="home_second">Home Second</string>
+    <string name="campiVuoti">Alcuni campi sono vuoti</string>
+    <string name="passwordNonCoincidenti">Le passwordo non coincidono</string>
+    <string name="somethingWrong">Qualcosa è andato storto :(</string>
 </resources>
