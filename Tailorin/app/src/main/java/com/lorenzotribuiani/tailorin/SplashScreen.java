@@ -3,10 +3,9 @@ package com.lorenzotribuiani.tailorin;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.drawable.Animatable;
+import android.content.SharedPreferences;
 import android.graphics.drawable.AnimatedVectorDrawable;
 import android.os.Bundle;
-import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -14,6 +13,8 @@ import android.widget.ImageView;
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 
 public class SplashScreen extends AppCompatActivity {
+
+    private int LOGIN_REQUEST = 101;
 
     private ImageView logo, text;
 
@@ -32,21 +33,44 @@ public class SplashScreen extends AppCompatActivity {
         //ottengo l'animazione di rimbalzo
         final Animation bow = AnimationBow(logo);
 
-        logo.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                logo.startAnimation(bow);
-            }
-        }, 1200);
+        SharedPreferences preferences = getSharedPreferences("LoadCheck", MODE_PRIVATE);
+        if(preferences.getBoolean("idFirstRun", true)){
 
-        logo.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                startActivity(new Intent(SplashScreen.this, HomePage.class));
-                //cambio il tipo di transizione fra le activity dallo scorrimento al fade (solo in questo caso)
-                Animatoo.animateFade(SplashScreen.this);
-            }
-        }, 2000);
+            logo.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    logo.startAnimation(bow);
+                }
+            }, 1200);
+
+            logo.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    startActivity(new Intent(SplashScreen.this, FirstRun_Login.class));
+                    //cambio il tipo di transizione fra le activity dallo scorrimento al fade (solo in questo caso)
+                    Animatoo.animateFade(SplashScreen.this);
+                }
+            }, 2000);
+
+        } else {
+
+            logo.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    logo.startAnimation(bow);
+                }
+            }, 1200);
+
+            logo.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    startActivity(new Intent(SplashScreen.this, HomePage.class));
+                    //cambio il tipo di transizione fra le activity dallo scorrimento al fade (solo in questo caso)
+                    Animatoo.animateFade(SplashScreen.this);
+                }
+            }, 2000);
+
+        }
     }
 
 
