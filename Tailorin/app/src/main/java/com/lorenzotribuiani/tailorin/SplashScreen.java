@@ -58,24 +58,47 @@ public class SplashScreen extends AppCompatActivity {
 
         } else {
 
-            logo.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    logo.startAnimation(bow);
-                }
-            }, 1200);
+            if(preferences.getBoolean("isLogged", false)){
+                logo.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        logo.startAnimation(bow);
+                    }
+                }, 1200);
 
-            logo.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    Intent intent = new Intent(SplashScreen.this, HomePage.class);
-                    //elimina la splashActivity dallo stack
-                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK );
-                    startActivity(intent);
-                    //cambio il tipo di transizione fra le activity dallo scorrimento al fade (solo in questo caso)
-                    Animatoo.animateFade(SplashScreen.this);
-                }
-            }, 2000);
+                logo.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent intent = new Intent(SplashScreen.this, HomePage.class);
+                        intent.putExtra("isLogged", true);
+                        //elimina la splashActivity dallo stack
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK );
+                        startActivity(intent);
+                        //cambio il tipo di transizione fra le activity dallo scorrimento al fade (solo in questo caso)
+                        Animatoo.animateFade(SplashScreen.this);
+                    }
+                }, 2000);
+            } else {
+                logo.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        logo.startAnimation(bow);
+                    }
+                }, 1200);
+
+                logo.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent intent = new Intent(SplashScreen.this, HomePage.class);
+                        intent.putExtra("isLogged", false);
+                        //elimina la splashActivity dallo stack
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK );
+                        startActivity(intent);
+                        //cambio il tipo di transizione fra le activity dallo scorrimento al fade (solo in questo caso)
+                        Animatoo.animateFade(SplashScreen.this);
+                    }
+                }, 2000);
+            }
 
         }
     }

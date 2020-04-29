@@ -16,4 +16,8 @@
     <string name="campiVuoti">Alcuni campi sono vuoti</string>
     <string name="passwordNonCoincidenti">Le passwordo non coincidono</string>
     <string name="somethingWrong">Qualcosa è andato storto :(</string>
+    <string name="emptyField">Riempire Campo</string>
+    <string name="mailFormatErr">Email non valida</string>
+    <string name="mailOrPassErr">E-mail o password errate</string>
+    <string name="Retry">riprovare</string>
 </resources>
