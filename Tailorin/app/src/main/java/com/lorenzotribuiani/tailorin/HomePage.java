@@ -11,16 +11,16 @@ public class HomePage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_page);
+        setContentView(R.layout.fragment_home);
 
         Intent intent = getIntent();
         boolean logged = intent.getBooleanExtra("isLogged", false);
 
-        TextView text = findViewById(R.id.textView);
-        if(logged){
-            text.setText("Logged");
-        } else {
-            text.setText("Not Logged");
-        }
+//        TextView text = findViewById(R.id.textView);
+//        if(logged){
+//            text.setText("Logged");
+//        } else {
+//            text.setText("Not Logged");
+//        }
     }
 }

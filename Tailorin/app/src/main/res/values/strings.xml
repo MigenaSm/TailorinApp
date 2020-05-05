@@ -7,10 +7,11 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="action_Login">Login</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_gallery">Profile</string>
+    <string name="menu_slideshow">Options</string>
 
     <string name="home_second">Home Second</string>
     <string name="campiVuoti">Alcuni campi sono vuoti</string>
@@ -20,4 +21,5 @@
     <string name="mailFormatErr">Email non valida</string>
     <string name="mailOrPassErr">E-mail o password errate</string>
     <string name="Retry">riprovare</string>
+    <string name="title_activity_menu">MenuActivity</string>
 </resources>
