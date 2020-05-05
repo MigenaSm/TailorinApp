@@ -10,16 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MenuActivity"
-            android:label="@string/title_activity_menu"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
             android:name=".Registration"
             android:theme="@style/FirstRunLogin" />
         <activity
             android:name=".FirstRun_Login"
             android:theme="@style/FirstRunLogin" />
-        <activity android:name=".HomePage" />
+        <activity android:name=".HomePage"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".SplashScreen"
             android:theme="@style/SplashScreen">

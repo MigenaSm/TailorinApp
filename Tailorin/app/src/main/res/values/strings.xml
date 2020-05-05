@@ -10,8 +10,8 @@
     <string name="action_Login">Login</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Profile</string>
-    <string name="menu_slideshow">Options</string>
+    <string name="menu_gallery">Profilo</string>
+    <string name="menu_slideshow">Impostazioni</string>
 
     <string name="home_second">Home Second</string>
     <string name="campiVuoti">Alcuni campi sono vuoti</string>
