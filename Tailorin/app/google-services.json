@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "653329656363-7bkdvce2p8oi0vbqr53rinm7ojji1hjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lorenzotribuiani.tailorin",
+            "certificate_hash": "6b71b3933aa14f1c6a7a3ce82c0d22be4e794d10"
+          }
+        },
+        {
           "client_id": "653329656363-ulc73bhqv2hlqodhjokjk49dd8ivuc2s.apps.googleusercontent.com",
           "client_type": 3
         }

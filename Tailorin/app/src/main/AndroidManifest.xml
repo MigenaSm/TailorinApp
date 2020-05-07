@@ -15,8 +15,9 @@
         <activity
             android:name=".FirstRun_Login"
             android:theme="@style/FirstRunLogin" />
-        <activity android:name=".HomePage"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".HomePage"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SplashScreen"
             android:theme="@style/SplashScreen">
