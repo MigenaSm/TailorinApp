@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ODYN82LYGFIV9kIzXwb7XE2wj+UeZ6W9FkK7DQEdjW+9ze6rUD5NCvhDd0p6RrDS4+icXYiwaFdhbX9HALm9wQ==",
+  "dgSpecHash": "5HAyvOuj4xziSTCXDeDSXZpIaB34OtEP8XFyxnzoo1nxENhiqEDRLJJ3JTc7k1Vhyn/MEPwThZfSV5C/tRiv8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinXam\\Tailorin\\Tailorin\\Tailorin\\Tailorin.csproj",
+  "projectFilePath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinX\\Tailorin\\Tailorin\\Tailorin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lorenzo Tribuiani\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Lorenzo Tribuiani\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

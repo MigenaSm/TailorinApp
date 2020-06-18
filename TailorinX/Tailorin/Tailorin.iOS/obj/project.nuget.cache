@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "80NV+pMiBzEmuY2BzDmzgrQ6X5ZXvwQ99U1Br/3qUJOcLTb6NYusmPOcOdm8PfMstsLkNEPQsn5A2Gg95g//fA==",
+  "dgSpecHash": "IV6j4+EgwQwMgAWGhdXC55CvbE7/Y/Pj5ZnN/rq4Z3tauN4CYGawtHRZKnDETdIhTOXeO9cK10MnwKyhHnga9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinXam\\Tailorin\\Tailorin\\Tailorin.iOS\\Tailorin.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinX\\Tailorin\\Tailorin.iOS\\Tailorin.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lorenzo Tribuiani\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",

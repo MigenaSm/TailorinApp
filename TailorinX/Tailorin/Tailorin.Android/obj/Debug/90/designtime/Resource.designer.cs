@@ -5762,7 +5762,7 @@ namespace Tailorin.Droid
 			public const int design_snackbar_background = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int ic_facebook = 2131165279;
+			public const int facebook = 2131165279;
 			
 			// aapt resource value: 0x7F070060
 			public const int ic_mtrl_chip_checked_black = 2131165280;

@@ -1024,11 +1024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinXam\\Tailorin\\Tailorin\\Tailorin.iOS\\Tailorin.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinX\\Tailorin\\Tailorin.iOS\\Tailorin.iOS.csproj",
       "projectName": "Tailorin.iOS",
-      "projectPath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinXam\\Tailorin\\Tailorin\\Tailorin.iOS\\Tailorin.iOS.csproj",
+      "projectPath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinX\\Tailorin\\Tailorin.iOS\\Tailorin.iOS.csproj",
       "packagesPath": "C:\\Users\\Lorenzo Tribuiani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinXam\\Tailorin\\Tailorin\\Tailorin.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinX\\Tailorin\\Tailorin.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1049,8 +1049,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinXam\\Tailorin\\Tailorin\\Tailorin\\Tailorin.csproj": {
-              "projectPath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinXam\\Tailorin\\Tailorin\\Tailorin\\Tailorin.csproj"
+            "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinX\\Tailorin\\Tailorin\\Tailorin.csproj": {
+              "projectPath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinX\\Tailorin\\Tailorin\\Tailorin.csproj"
             }
           }
         }

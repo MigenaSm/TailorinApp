@@ -575,11 +575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinXam\\Tailorin\\Tailorin\\Tailorin\\Tailorin.csproj",
+      "projectUniqueName": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinX\\Tailorin\\Tailorin\\Tailorin.csproj",
       "projectName": "Tailorin",
-      "projectPath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinXam\\Tailorin\\Tailorin\\Tailorin\\Tailorin.csproj",
+      "projectPath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinX\\Tailorin\\Tailorin\\Tailorin.csproj",
       "packagesPath": "C:\\Users\\Lorenzo Tribuiani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinXam\\Tailorin\\Tailorin\\Tailorin\\obj\\",
+      "outputPath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinX\\Tailorin\\Tailorin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

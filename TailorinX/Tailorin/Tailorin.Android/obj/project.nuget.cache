@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QoEBbOrAa4PZbTJLqlHqTTvu43TzGkZ42p19l8fTjAzDqs3A8ZVCUtWQJkVVg2WrgxV8zGGm3wlNANPTuBw85g==",
+  "dgSpecHash": "WELQfncQag2MY1brKlEYC94f9C8tJFflQ9weM8rKLF62czISlnH2uHQIoykX3zxKuHGaL2at/ug5NNrpT53r6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinXam\\Tailorin\\Tailorin\\Tailorin.Android\\Tailorin.Android.csproj",
+  "projectFilePath": "C:\\Users\\Lorenzo Tribuiani\\MobileProject\\TailorinApp\\TailorinX\\Tailorin\\Tailorin.Android\\Tailorin.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lorenzo Tribuiani\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
