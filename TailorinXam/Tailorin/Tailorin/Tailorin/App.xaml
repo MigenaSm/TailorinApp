@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Tailorin.App">
+    <Application.Resources>
+
+        <Color x:Key="colorPrimary">#e91e63</Color>
+        <Color x:Key="colorPrimaryDark">#c2185b</Color>
+        <Color x:Key="colorPrimaryLight">#DAF8BBD0</Color>
+        <Color x:Key="primaryText">#212121</Color>
+        <Color x:Key="secondaryText">#C5BDBD</Color>
+        <Color x:Key="title">#F7757575</Color>
+        <Color x:Key="divider">#dbdbdb</Color>
+        <Color x:Key="colorAccent">#e040fb</Color>
+        <Color x:Key="almostWhite">#EAEDF4</Color>
+
+    </Application.Resources>
+</Application>
