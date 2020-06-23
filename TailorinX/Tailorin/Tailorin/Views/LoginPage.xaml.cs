@@ -23,8 +23,22 @@ namespace Tailorin.Views
             BackgroundImageSource = "background_halfp_halfpd.xml";
         }
 
-        public void loginProcedure(object sender, EventArgs e)
+        public async void loginProcedure(object sender, EventArgs e)
         {
+            try
+            {
+                string mail = UsernameEntry.Text;
+                string password = PasswordEntry.Text;
+                var Login = DependencyService.Get<Interfaces.IFirebaseTailorin>();
+                string token = await Login.LoginMailPassword(mail, password);
+                await DisplayAlert("Tooken", token, "ok");
+                
+                await Navigation.PushModalAsync(new NavigationPage(new HomePage()));
+            } catch (System.Exception err)
+            {
+                await DisplayAlert("Errore",err.Message, "OK");
+            }
+                        
 
         }
 

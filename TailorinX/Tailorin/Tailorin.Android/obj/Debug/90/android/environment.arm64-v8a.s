@@ -3,8 +3,8 @@
 	.section	.rodata..L.str.1,"aMS",@progbits,1
 	.type	.L.str.1, @object
 .L.str.1:
-	.asciz	"com.companyname.tailorin"
-	.size	.L.str.1, 25
+	.asciz	"com.programmazionemobile.tailorin"
+	.size	.L.str.1, 34
 	.section	.data.application_config,"aw",@progbits
 	.type	application_config, @object
 	.p2align	3
@@ -70,7 +70,7 @@ mono_aot_mode_name:
 	.section	.rodata..L.str.8,"aMS",@progbits,1
 	.type	.L.str.8, @object
 .L.str.8:
-	.asciz	"fcd86492-3c66-48b6-adbb-0be557bfae87"
+	.asciz	"0f27b02a-099b-4800-8161-87002e406d66"
 	.size	.L.str.8, 37
 	.section	.rodata..L.str.9,"aMS",@progbits,1
 	.type	.L.str.9, @object

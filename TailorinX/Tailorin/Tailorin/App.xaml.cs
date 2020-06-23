@@ -11,7 +11,13 @@ namespace Tailorin
         {
             InitializeComponent();
 
-            MainPage = new LoginPage();
+            if (DependencyService.Get<Interfaces.IFirebaseTailorin>().isLogged())
+            {
+                MainPage = new NavigationPage(new HomePage());
+            } else
+            {
+                MainPage = new LoginPage();
+            }
         }
 
         protected override void OnStart()

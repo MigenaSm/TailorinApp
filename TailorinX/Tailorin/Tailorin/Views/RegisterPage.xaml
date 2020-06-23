@@ -13,17 +13,22 @@
             <Label Text="Registrati" TextColor="{x:DynamicResource colorPrimary}" FontSize="40" HorizontalTextAlignment="Center"
                    Margin="0,45,0,0"/>
 
-            <Entry x:Name="nome" Placeholder="Nome" Margin="20,45,20,0"/>
+            <Entry x:Name="nome" ClassId="1" Placeholder="Nome" Margin="20,45,20,0" TextChanged="removeError"/>
+            <Label x:Name="nomeError"  Margin="20,2,20,0" FontSize="13" IsVisible="False" TextColor="Red"/>
 
-            <Entry x:Name="cognome" Placeholder="Cognome" Margin="20,42,20,0"/>
+            <Entry x:Name="cognome" ClassId="2" Placeholder="Cognome" Margin="20,42,20,0" TextChanged="removeError"/>
+            <Label x:Name="cognomeError"  Margin="20,2,20,0" FontSize="13" IsVisible="False" TextColor="Red"/>
 
-            <Entry x:Name="email" Placeholder="E-mail" Margin="20,42,20,0"/>
+            <Entry x:Name="email" ClassId="3" Placeholder="E-mail" Margin="20,42,20,0" TextChanged="removeError"/>
+            <Label x:Name="mailError"  Margin="20,2,20,0" FontSize="13" IsVisible="False" TextColor="Red"/>
 
-            <Entry x:Name="password" Placeholder="Password" IsPassword="True" Margin="20,42,20,0"/>
+            <Entry x:Name="password" ClassId="4" Placeholder="Password" IsPassword="True" Margin="20,42,20,0" TextChanged="removeError"/>
+            <Label x:Name="passwordError"  Margin="20,2,20,0" FontSize="13" IsVisible="False" TextColor="Red"/>
 
-            <Entry x:Name="password_conf" Placeholder="Conferma Password" IsPassword="True" Margin="20,42,20,0"/>
+            <Entry x:Name="password_conf" ClassId="5" Placeholder="Conferma Password" IsPassword="True" Margin="20,42,20,0" TextChanged="removeError"/>
+            <Label x:Name="passwordConfError"  Margin="20,2,20,0" FontSize="13" IsVisible="False" TextColor="Red"/>
 
-            <custom:ButtonPurple Text="Registrati" TextColor="White" Margin="70,40,70,0"/>
+            <custom:ButtonPurple Text="Registrati" TextColor="White" Margin="70,40,70,0" Clicked="Register"/>
 
         </StackLayout>
 

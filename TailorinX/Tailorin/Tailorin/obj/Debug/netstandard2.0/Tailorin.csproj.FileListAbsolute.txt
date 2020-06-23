@@ -51,3 +51,4 @@ C:\Users\Lorenzo Tribuiani\MobileProject\TailorinApp\TailorinX\Tailorin\Tailorin
 C:\Users\Lorenzo Tribuiani\MobileProject\TailorinApp\TailorinX\Tailorin\Tailorin\obj\Debug\netstandard2.0\Tailorin.dll
 C:\Users\Lorenzo Tribuiani\MobileProject\TailorinApp\TailorinX\Tailorin\Tailorin\obj\Debug\netstandard2.0\ref\Tailorin.dll
 C:\Users\Lorenzo Tribuiani\MobileProject\TailorinApp\TailorinX\Tailorin\Tailorin\obj\Debug\netstandard2.0\Tailorin.pdb
+C:\Users\Lorenzo Tribuiani\MobileProject\TailorinApp\TailorinX\Tailorin\Tailorin\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
